@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
-    <link rel="icon" type="image/png" href="favicon_godzilla.png" />
+    <link rel="icon" type="image/png" href="favicon_godzilla2.png" />
     <title>Marlène Egraz</title>
 
 </head>

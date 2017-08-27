@@ -4,40 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
     <title>Marlène Egraz</title>
 
-    <style type="text/css">
-    .nav-down{
-      margin-top: 20px;
-      font-family: 'Comfortaa', cursive;
-      font-size: 18px;
-    }
-    .stylename {
-      position: absolute;
-      left: 70px;
-      top: 200px;
-      font-family: 'Lobster', cursive;
-      font-size: 100px;
-      color: #000000;
-      text-shadow: 2px 2px 2px black, -2px -2px 2px white;
-    }
-    .vuelyon {
-      width: 100%;
-      height: 100%;
-      opacity: 0.5;
-    }
-    .godzilla {
-      position: absolute;
-      right: 120px;
-      top: 80px;
-      -webkit-filter: drop-shadow(5px 5px 5px black);
-      filter: drop-shadow(5px 5px 5px black);
-    }
-
-    </style>
 </head>
 
 <body>

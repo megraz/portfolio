@@ -1,0 +1,29 @@
+.nav-down {
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+}
+
+.stylename {
+    position: absolute;
+    left: 70px;
+    top: 200px;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: #000000;
+    text-shadow: 2px 2px 2px black, -2px -2px 2px white;
+}
+
+.vuelyon {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.godzilla {
+    position: absolute;
+    right: 120px;
+    top: 80px;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+}

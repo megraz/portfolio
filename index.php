@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="favicon_godzilla.png" />
     <title>Marlène Egraz</title>
 
 </head>
@@ -16,16 +17,16 @@
 <header class="nav-down">
 <ul class="nav nav-pills nav-justified">
   <li class="nav-item">
-    <a class="btn btn-outline-success" href="#" style="border-radius:10px">Accueil</a>
+    <a class="btn btn-outline-success" href="#accueil" style="border-radius:10px">Accueil</a>
   </li>
   <li class="nav-item">
-    <a class="btn btn-outline-success" href="#" style="border-radius:10px">Mes projets</a>
+    <a class="btn btn-outline-success" href="#projets" style="border-radius:10px">Mes projets</a>
   </li>
   <li class="nav-item">
-    <a class="btn btn-outline-success" href="#" style="border-radius:10px">A propos de moi</a>
+    <a class="btn btn-outline-success" href="#apropos" style="border-radius:10px">A propos de moi</a>
   </li>
   <li class="nav-item">
-    <a class="btn btn-outline-success" href="#" style="border-radius:10px">Contact</a>
+    <a class="btn btn-outline-success" href="#contact" style="border-radius:10px">Contact</a>
   </li>
 </ul>
 </header>
@@ -35,6 +36,11 @@
 </div>
 <div class="monster">
 <img class="godzilla" src="godzilla_illustr1c.png">
+</div>
+<div id="apropos">
+<h1 class="presentation">Présentation</h1>
+<p>Aujourd'hui en reconversion professionnelle, je suis actuellement une formation de développeuse web à Simplon. J'ai trouvé la parfaite alchimie entre les différentes disciplines de mon parcours.
+Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
 </div>
 
 

@@ -27,3 +27,15 @@
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
 }
+
+#apropos {
+    font-family: 'Comfortaa', cursive;
+    width: 70%;
+    height: 250px;
+    margin-left: 180px;
+    margin-top: 120px;
+}
+
+.presentation {
+    margin-bottom: 1em;
+}

@@ -1,5 +1,6 @@
 .nav-down {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Comfortaa', cursive;
     font-size: 18px;
 }
@@ -60,7 +61,6 @@
 }
 
 .comment:hover {
-    text-decoration: none;
     color: #6DDC06;
 }
 
@@ -133,7 +133,7 @@ body {
 
 .godzilla-move {
     animation-name: move;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-direction: reverse;
 }
@@ -147,5 +147,31 @@ body {
     }
     100% {
         transform: translateX(-20px);
+    }
+}
+
+
+/* animation titre */
+
+#swing-move {
+    transform-origin: top center;
+    animation-name: swing;
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+    40% {
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+    60% {
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+    80% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+    to {
+        transform: rotate3d(0, 0, 1, 0deg);
     }
 }

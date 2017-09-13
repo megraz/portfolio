@@ -33,7 +33,7 @@
 </header>
 <div class="fondlyon">
   <img class="vuelyon" src="vue_lyonwm2.jpg" alt="image fond vue de lyon">
-  <h1 class="stylename">Marlène Egraz</h1>
+  <h1 class="stylename" id="swingtitle">Marlène Egraz</h1>
 </div>
 <div class="monster">
   <img class="godzilla" src="godzilla_illustr1c.png" alt="illustration godzilla">
@@ -62,7 +62,7 @@ Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
         if(is_dir($file)){
         $screen = $file . '/screenshot.png';
         if (is_file($screen)) {
-          echo '<a href="'.$file.'">
+          echo '<a href="'.$file.'" style="text-decoration:none">
          <div class="image"><img src="' . $screen . '"></div>
          <div class="comment">' . $comment . '</div>
          </a>';

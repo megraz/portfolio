@@ -8,7 +8,7 @@ let monsters = {
 let accueil = document.querySelector("#accueil");
 accueil.addEventListener("click", function() {
     move();
-    swing();
+    tada();
 });
 
 function move() {
@@ -20,11 +20,11 @@ function move() {
     })
 }
 
-function swing() {
-    let swingtitle = document.querySelector("#swingtitle");
-    let classes = swingtitle.className;
-    swingtitle.classList.add("swing-move");
-    swingtitle.addEventListener('animationend', function() {
-        swingtitle.className = classes;
+function tada() {
+    let tada = document.querySelector("#tada");
+    let classes = tada.className;
+    tada.classList.add("tada-move");
+    tada.addEventListener('animationend', function() {
+        tada.className = classes;
     })
 }

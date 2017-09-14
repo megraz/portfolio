@@ -33,7 +33,7 @@
 </header>
 <div class="fondlyon">
   <img class="vuelyon" src="vue_lyonwm2.jpg" alt="image fond vue de lyon">
-  <h1 class="stylename" id="swingtitle">Marlène Egraz</h1>
+  <h1 class="stylename" id="tada">Marlène Egraz</h1>
 </div>
 <div class="monster">
   <img class="godzilla" src="godzilla_illustr1c.png" alt="illustration godzilla">

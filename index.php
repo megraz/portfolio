@@ -50,6 +50,14 @@ Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
 </div>
 <section class="captureprojets">
   <div class="text-center">
+  
+  <section id="template">
+    <a href="https://www.simplonlyon.fr/promo3/megraz/app">
+    <img src="screenshot-tptemplate.png" class="rounded mx-auto d-block" alt="screencap">
+    </a>
+    <p>Projet de groupe pour l'apprentissage de Node.js</p>
+    </section>
+
   <?php
   $dossier = "./";
     $files = scandir($dossier);

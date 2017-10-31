@@ -68,6 +68,11 @@
     margin-bottom: 200px;
 }
 
+#template p {
+    color: #11A900;
+    padding-top: 20px;
+}
+
 
 /*Footer*/
 
@@ -178,5 +183,17 @@ body {
     }
     to {
         transform: scale3d(1, 1, 1);
+    }
+}
+
+
+/*responsive*/
+
+@media only screen and (max-width: 960px) {
+    body {
+        width: auto;
+    }
+    .godzilla {
+        position: relative;
     }
 }

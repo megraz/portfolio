@@ -71,6 +71,29 @@
 #template p {
     color: #11A900;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#template:hover p {
+    color: #6DDC06;
+}
+
+#template a {
+    text-decoration: none;
+}
+
+#paturain p {
+    color: #11A900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#paturain:hover p {
+    color: #6DDC06;
+}
+
+#paturain a {
+    text-decoration: none;
 }
 
 

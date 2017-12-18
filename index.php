@@ -54,9 +54,16 @@ Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
   <section id="template">
     <a href="http://www.simplonlyon.fr:3003/">
     <img src="screenshot-tptemplate.png" class="rounded mx-auto d-block" alt="screencap">
-    </a>
     <p>Projet de groupe pour l'apprentissage de Node.js</p>
+    </a>
     </section>
+
+  <section id="paturain">
+  <a href="https://www.simplonlyon.fr/promo3/aguilloud/Paturain/">
+  <img src="screenshot-paturain.jpg" class="rounded mx-auto d-block">
+  <p>Projet de groupe Wordpress (Audrey Guilloud, Hayet Bouzidi, Marlène Egraz)</p>
+  </a>
+  </section>
 
   <?php
   $dossier = "./";

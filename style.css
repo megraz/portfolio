@@ -15,6 +15,14 @@
     text-shadow: 2px 2px 2px black, -2px -2px 2px white;
 }
 
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .stylename {
+        top: 130px;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
 .vuelyon {
     width: 100%;
     height: 100%;
@@ -29,12 +37,35 @@
     filter: drop-shadow(5px 5px 5px black);
 }
 
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .godzilla {
+        display: block;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-left: 180px;
+        margin-top: 80px;
+        width: 80%;
+        top: 180px;
+        right: 5px;
+        margin-bottom: -80px;
+    }
+}
+
 #apropos {
     font-family: 'Comfortaa', cursive;
     width: 70%;
     height: 250px;
     margin-left: 180px;
     margin-top: 120px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #apropos {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 400px;
+    }
 }
 
 .presentation {
@@ -49,6 +80,15 @@
 .mesprojets {
     font-family: 'Comfortaa', cursive;
     margin-bottom: 40px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #projets {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 .image {
@@ -94,6 +134,42 @@
 
 #paturain a {
     text-decoration: none;
+}
+
+#projetsvisu {
+    margin-bottom: 1em;
+    margin-left: 180px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #projetsvisu {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+.avisu {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+}
+
+#artsvisuels {
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+    #artsvisuels {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -212,11 +288,21 @@ body {
 
 /*responsive*/
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+
+/* @media only screen and (max-width: 960px) {
     body {
         width: auto;
     }
     .godzilla {
         position: relative;
     }
-}
+} */

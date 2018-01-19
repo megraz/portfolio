@@ -32,6 +32,7 @@
 </ul>
 </header>
 <div class="fondlyon">
+  <!-- <img class="vuelyon" src="vue_lyonwm2.jpg" srcset="vue_lyonwm2a.jpg 480w" sizes="100vw" alt="image fond vue de lyon"> -->
   <img class="vuelyon" src="vue_lyonwm2.jpg" alt="image fond vue de lyon">
   <h1 class="stylename" id="tada">Marlène Egraz</h1>
 </div>
@@ -104,6 +105,18 @@ Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
     <p>Réalisation d'un site "Meetup" utilisant HTML/CSS, PHP et Bootstrap </p>
     </section> -->
   </div>
+</section>
+
+<div id="projetsvisu">
+  <h1 class="avisu">Arts Visuels</h1>
+</div>
+<section id="artsvisuels">
+  <img src="crea_mae/hirondelle_tcl1.jpg">
+  <img src="crea_mae/ticket_bus_owl1.jpg">
+  <img src="crea_mae/dessin_inspiration_tattoo1.jpg">
+  <img src="crea_mae/marly_heart1.jpg">
+  <img src="crea_mae/donmateo.jpg">
+  <img src="crea_mae/birdy_roots1.jpg">
 </section>
 </main>
 

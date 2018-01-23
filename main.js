@@ -1,30 +1,35 @@
 "use strict";
 
-//mes personnages
-let monsters = {
-    nom: "godzilla",
-};
+/*scroll */
 
-let accueil = document.querySelector("#accueil");
-accueil.addEventListener("click", function() {
-    move();
-    tada();
+$(document).ready(function() {
+    $('a[href^="#"]').click(function() { // Au clic sur un élément
+        var id = $(this).attr("href"); // Page cible
+        if (id === '#') {
+            return;
+        }
+        $('html, body').animate({
+            scrollTop: $(id).offset().top //La méthode .offset() renvoie les coordonnées (relatives au document) de l’élément 
+        }, 'slow');
+        return false; //permet d’éviter le comportement normal lors de l’évènement de clic sur le lien (à savoir le saut vers l’ancre et son affichage dans l’url).
+    });
 });
 
-function move() {
-    let godzilla = document.querySelector(".godzilla");
-    let classes = godzilla.className;
-    godzilla.classList.add("godzilla-move");
-    godzilla.addEventListener('animationend', function() {
-        godzilla.className = classes;
-    })
-}
-
-function tada() {
-    let tada = document.querySelector("#tada");
-    let classes = tada.className;
-    tada.classList.add("tada-move");
-    tada.addEventListener('animationend', function() {
-        tada.className = classes;
-    })
-}
+/* ou sinon */
+// $(document).ready(function() {
+// au clic sur un lien
+// $('a').on('click', function(evt) {
+// bloquer le comportement par défaut: on ne rechargera pas la page
+// evt.preventDefault();
+// enregistre la valeur de l'attribut  href dans la variable target
+// var target = $(this).attr('href');
+/* le sélecteur $(html, body) permet de corriger un bug sur chrome 
+et safari (webkit) */
+// $('html, body')
+// on arrête toutes les animations en cours 
+// .stop()
+/* on fait maintenant l'animation vers le haut (scrollTop) vers 
+ notre ancre target */
+//             .animate({ scrollTop: $(target).offset().top }, 1000);
+//     });
+// });

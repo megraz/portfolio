@@ -84,7 +84,7 @@ header {
 }
 
 #apropos {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive, Helvetica, Arial, sans-serif;
     width: 70%;
     height: 250px;
     margin-left: 180px;
@@ -110,7 +110,7 @@ header {
 }
 
 .mesprojets {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive, Helvetica, Arial, sans-serif;
     margin-bottom: 40px;
 }
 
@@ -120,6 +120,24 @@ header {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #template img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #paturain img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #screens img {
+        max-width: 100%;
     }
 }
 
@@ -183,7 +201,7 @@ header {
 }
 
 .avisu {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive, Helvetica, Arial, sans-serif;
     margin-bottom: 40px;
 }
 

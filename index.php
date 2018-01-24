@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet" type='text/css'> 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
     <link rel="icon" type="image/png" href="favicon_godzilla2.png" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Marlène Egraz</title>
@@ -72,6 +73,7 @@ Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
   </a>
   </section>
 
+  <section id="screens">
   <?php
   $dossier = "./";
     $files = scandir($dossier);
@@ -92,6 +94,8 @@ Graphiste de formation, j'ai un intérêt particulier pour le front-end.</p>
       }
    }
     ?>
+    </section>
+    
     <!-- <section id="soto">
     <a href="jeff-soto">
     <img src="screenshot_soto.png" class="rounded mx-auto d-block" alt="screencap">
